@@ -43,7 +43,7 @@ print("Sorted array: \n\(sortedArray)")
 func bubbleSort(intsArray: [Int]) -> [Int] {
     // Create a copy of the array to modify
     var sortedArray = intsArray
-    
+
     // Pass to keep track of the number of passes
     var pass = 0
     // While loop to iterate through the array

@@ -17,8 +17,8 @@ let MAX_RANDOM_NUMBER = 100
 let MIN_RANDOM_NUMBER = 1
 
 // Welcome message
-print("Welcome to the Bubble Sort program!")
-print("This program will generate a random array of")
+print("Welcome to the Bubble Sort program!", terminator: " ")
+print("This program will generate a random array of", terminator: " ")
 print("integers, and sort it using the bubble sort method.")
 
 // Create an array of random integers
